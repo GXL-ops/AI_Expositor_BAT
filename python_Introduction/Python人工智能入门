@@ -1,0 +1,16 @@
+来源：https://space.bilibili.com/397540782/channel/detail?cid=76455
+
+Anaconda虚拟环境安装
+# 创建3.6版本的python虚拟环境
+canda create -n py3.6 python3.6
+
+# 查看所有的python虚拟环境
+conda info -e
+
+# conda 激活 python3.6
+conda activate py3.6
+
+# 在py3.6下安装numpy
+pip install numpy
+# 查看安装好的库
+pip list
